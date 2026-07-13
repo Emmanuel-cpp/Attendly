@@ -18,6 +18,12 @@ Paper attendance registers are slow, easy to forge, and give lecturers no usable
 4. The lecturer watches the roster fill in live, then ends the session.
 5. Students can view their own attendance history per course.
 
+## Screenshots
+
+| Lecturer — live session | Student — scanning | Student — checked in |
+|---|---|---|
+| ![Live session](docs/screenshots/live-session.png) | ![Scanning](docs/screenshots/scan.png) | ![Success](docs/screenshots/success.png) |
+
 ## Anti-spoofing design
 
 The core security problem in QR attendance is that a QR code can be photographed and shared. Attendly addresses this with two layers:
